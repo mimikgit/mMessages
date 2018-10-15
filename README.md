@@ -26,7 +26,10 @@ Please visit the [releases section](https://github.com/mimikgit/mMessages/releas
 [OAuthtool application for MacOs](https://github.com/mimikgit/oauthtool/releases/download/v1.1.0/mimik.OAuth.tool-1.1.0.dmg)<br/>
 [OAuthtool application for Linux](https://github.com/mimikgit/oauthtool/releases/download/v1.1.0/mimik-oauth-tool-1.1.0-x86_64.AppImage)```diff - Attention: Please safe keep your edgeSDK access token for later deployment use.```
     3) If you have not downloaded the latest built version of the microservice at [here](https://github.com/mimikgit/mMessages/releases), please download it now.
-3) Now you are ready to deploy this microservice on the edgeSDK, please run the following command on the bash terminal: <br/>**Note: For Windows user, please download [Cygwin](https://cygwin.com/install.html) or [Git Bash](https://git-scm.com/downloads) to perform this.**<br/>```diff - Attention: Please run the following commend under the same directory of your downloaded microservice file.```
+3) Now you are ready to deploy this microservice on the edgeSDK, please run the following command on the bash terminal: <br/>**Note: For Windows user, please download [Cygwin](https://cygwin.com/install.html) or [Git Bash](https://git-scm.com/downloads) to perform this.**<br/>
+```diff 
+- Attention: Please run the following commend under the same directory of your downloaded microservice file.
+```
 
     ```curl -i -H 'Authorization: Bearer **Replace withYourToken**' -F "image=@messages-v1.tar" http://localhost:8083/mcm/v1/images```
 
