@@ -62,3 +62,4 @@ typings/
 # Anything in the build folder
 build/*
 deploy/deploy.sh
+deploy/index.js
