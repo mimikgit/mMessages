@@ -65,7 +65,7 @@ app.get('/messages/:itemId', (req, res) => {
 // POST new JSON messages
 app.post('/messages', (req, res) => {
   if (!req.body) {
-    res.writeError(new ApiError('missing JSON body'));
+    res.writeError(new ApiError(400, 'missing JSON body'));
     return;
   }
 
