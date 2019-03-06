@@ -8,7 +8,9 @@ This open source mMessages microservice created by the mimik team is an example 
 
 3. Retrieving other users' messages from their individual local database.
 
-# Releases & Deployment
+# Releases & Deployment 
+
+For latest update: https://developer.mimik.com/docs/microservices/deploy
 
 <h2> How to obtain the built-version of this microservice?</h2>
 
